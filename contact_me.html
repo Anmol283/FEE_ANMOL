@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS (local) -->
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <!-- jQuery (required for Bootstrap JS) -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- Bootstrap JS (local) -->
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="contact_me.css">
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="Cafe-logo.png" alt="Cafe Logo" style="border-style: groove; border-color: black; height:80px;width:80px">
+            Caffeine Craze
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">
+                  <img src="homeicon.png">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">
+                  <img src="menuicon.png">
+                  Menu
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact_me.html">
+                  <img src="carticon.png">
+                  Contact Us/order
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<body>
+  <div class="oval"><h1 class="heading">~Place your order here~</h1></div>
+  
+  <div class="form-container">
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-6 position-relative">
+        <label for="validationTooltip01" class="form-label">First name</label>
+        <input type="text" class="form-control" id="validationTooltip01" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-6 position-relative">
+        <label for="validationTooltip02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationTooltip02" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-12 position-relative">
+        <label for="validationTooltipUsername" class="form-label">Username</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+          <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+          <div class="invalid-tooltip">
+            Please choose a unique and valid username.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 position-relative">
+        <label for="validationTooltip03" class="form-label">Please enter your address</label>
+        <input type="text" class="form-control" id="validationTooltip03" required>
+        <div class="invalid-tooltip">
+          Please provide a valid address.
+        </div>
+      </div>
+      <div class="col-md-6 position-relative">
+        <label for="validationTooltip04" class="form-label">City</label>
+        <select class="form-select" id="validationTooltip04" required>
+          <option selected disabled value="">Select</option>
+          <option>Chandigarh</option>
+          <option>Mohali</option>
+          <option>Panchkula</option>
+          <option>Zirakpur</option>
+        </select>
+        <div class="invalid-tooltip">
+          Please select a city.
+        </div>
+      </div>
+      <div class="col-md-6 position-relative">
+        <label for="validationTooltip05" class="form-label">Pin Code</label>
+        <input type="text" class="form-control" id="validationTooltip05" required>
+        <div class="invalid-tooltip">
+          Please provide a valid pin code.
+        </div>
+      </div>
+    </form>
+    <br>
+    <br>
+    <form class="was-validated">
+      <div class="mb-3">
+        <select class="form-select" required aria-label="select example">
+          <option value="">What would you like to order?</option>
+          <option value="1">Cappuccino</option>
+          <option value="2">Chocolate Cappuccino</option>
+          <option value="3">Iced Hazelnut Latte</option>
+          <option value="4">Iced Caffè Mocha</option>
+          <option value="5">Latte</option>
+          <option value="6">Stardust Macchiato</option>
+          <option value="7">Mushroom Cheese Sandwich</option>
+          <option value="8">Basil Tomato Sandwich</option>
+          <option value="9">Pesto Veggie Sandwich</option>
+          <option value="10">Tandoori Soya Wrap</option>
+          <option value="11">Paneer Enchilada</option>
+          <option value="12">Chilli Cheese Toast</option>
+        </select>
+        <div class="invalid-feedback">Please select your order</div>
+      </div>
+  
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+        <label class="form-check-label" for="validationFormCheck2">Save my information</label>
+      </div>
+      <div class="form-check mb-3">
+        <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+        <label class="form-check-label" for="validationFormCheck3">Don't save my information</label>
+        <div class="invalid-feedback">Please select an option</div>
+      </div>
+      <div class="mb-3">
+        <label for="validationTextarea" class="form-label">Customize your order</label>
+        <textarea class="form-control" id="validationTextarea" placeholder="Please enter here" required></textarea>
+        <div class="invalid-feedback">Please provide customization details</div>
+      </div>
+  
+      <div class="mb-3">
+        <button class="btn btn-primary" type="submit" style="background-color:rgb(120, 50, 50);color: beige;border-color: beige;">Place my order</button>
+      </div>
+    </form>
+  </div>
+  <br>
+  <br>
+  <h1 class="contact">Contact Us</h1>
+  <div class="social">
+    <img src="instagram.png" class="pics">
+    <p>caffine_craze</p>
+    <img src="twitter.png">
+    <p>caffinecraze</p>
+    <img src="call.png">
+    <p>+91 9172-9172-56</p>
+  </div>
+
+
+</body>
+</html>

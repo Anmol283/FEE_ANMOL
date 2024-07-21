@@ -1,0 +1,102 @@
+  
+        body {
+            background-image: url(background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .container-fluid {
+            background-color: rgb(120, 50, 50);
+            color: white;
+            height: 100px;
+        }
+        .container-fluid img {
+            border-radius: 50%;
+            width: 90px;
+            height: 90px;
+        }
+        .navbar-collapse {
+            justify-content: flex-end;
+            font-size: 20px;
+        }
+        .navbar-collapse img {
+            height: 30px;
+            width: 30px;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        .nav-item {
+            display: flex;
+            align-items: center;
+            color: white;
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 20px;
+        }
+        .nav-item img {
+            margin-right: 5px;
+        }
+        .cafe-logo:hover {
+            transform: scale(1.1);
+        }
+        .nav-link:hover {
+            transform: scale(1.1);
+            text-decoration: underline;
+            color: white;
+        }
+        .nav-link {
+            color: white;
+        }
+        .menu-item:hover {
+            transform: scale(1.1);
+            background-color: beige;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-style: groove;
+            border-color: black;
+            border-radius: 5px;
+            padding: 10px;
+            background-image:url(rose.jpg);
+            color: black;
+        }
+        .menu-item img {
+            margin-right: 15px;
+            border-radius: 50%;
+            border-style: groove;
+            border-color: black;
+        }
+        .menu-item span {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            color: black;
+            flex: 1;
+        }
+        .navbar-brand img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .navbar-brand:hover {
+            transform: scale(1.1);
+        }
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color:rgba(120, 50, 50, 0.9);
+        }
+        .navbar-brand{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}

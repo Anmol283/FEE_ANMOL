@@ -1,0 +1,166 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+      .container-fluid {
+        background-color: rgb(120, 50, 50);
+        color: white;
+        height: 100px;
+      }
+      .container-fluid img {
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+      }
+      .navbar {
+        background-color: rgba(120, 50, 50, 0.9);
+      }
+      
+      .navbar-brand img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-right: 15px;
+      }
+      .navbar-brand:hover {
+        transform: scale(1.1);
+      }
+      
+      .navbar-nav {
+        margin-left: auto; /* Aligns the menu items to the right */
+        display: flex;
+        align-items: center;
+      }
+
+      .nav-link {
+        color: white;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+      }
+      .nav-item {
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .nav-item img {
+        height: 30px;
+        width: 30px;
+        margin-right: 5px;
+      }
+
+      .nav-link:hover {
+        color: #FFF8DC;
+        text-decoration: underline;
+        transform: scale(1.1);
+      }
+      .cafe-logo:hover {
+        transform: scale(1.1);
+      }
+      .nav-link:hover {
+        transform: scale(1.1);
+        text-decoration: underline;
+        color: white;
+      }
+      .nav-link {
+        color: white;
+      }
+      .menu-item:hover {
+        transform: scale(1.1);
+        background-color: beige;
+      }
+      /* Custom form styling */
+      .form-container {
+        max-width: 600px;
+        margin: 50px auto;
+        background-image: url(ok.jpg);
+        background-size: cover;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-family: "Edu AU VIC WA NT Hand", cursive;
+        font-optical-sizing: auto;
+         font-weight:100;
+         font-style: normal;
+}
+      .navbar-brand{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.heading{
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+        font-optical-sizing: auto;
+         font-weight:900;
+         font-style: normal;
+  font-size:30px;
+  text-align: center;
+  color:rgb(120, 50, 50);
+  margin-top:50px;
+
+}
+.contact {
+    font-family:'Edu AU VIC WA NT Hand', cursive;
+    font-size: 48px;
+    color: rgba(120, 50, 50, 0.9);
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 248, 220, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.social p {
+    font-family: 'Edu AU VIC WA NT Hand', cursive;
+    font-size: 24px;
+    color: #8B4513;
+    margin-bottom: 20px;
+}
+
+.social img.pics {
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    .social {
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 800px;
+        padding: 30px;
+    }
+
+    .social img {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .social p {
+        margin-bottom: 0;
+    }
+}
